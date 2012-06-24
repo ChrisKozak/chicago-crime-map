@@ -1,0 +1,9 @@
+%html
+  %head
+    %script{:src => "javascripts/jquery-1.7.2.min.js"}
+    %script{:src => "http://maps.googleapis.com/maps/api/js?key=AIzaSyALBraNlKx594OYfrj57vVDtWDighxaNYM&sensor=false"}
+    %script{:src => "maps.js"}
+  %body{:onload => "initialize()"}
+    #crimes
+      = partial :crime, :collection => @crimes
+    #map_canvas{:style => "width: 500px; height: 500px;"}

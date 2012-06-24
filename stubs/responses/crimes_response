@@ -1,0 +1,1728 @@
+{
+  "meta" : {
+    "view" : {
+      "id" : "bj7p-98q2",
+      "name" : "Crime Map - 2012",
+      "attribution" : "Chicago Police Department",
+      "attributionLink" : "https://portal.chicagopolice.org/portal/page/portal/ClearPath",
+      "averageRating" : 0,
+      "category" : "Public Safety",
+      "createdAt" : 1331765959,
+      "description" : "This dataset reflects reported incidents of crime (with the exception of murders where data exists for each victim) that occurred in the City of Chicago from 2001 to present, minus the most recent seven days. Data is extracted from the Chicago Police Department's CLEAR (Citizen Law Enforcement Analysis and Reporting) system. In order to protect the privacy of crime victims, addresses are shown at the block level only and specific locations are not identified. Should you have questions about this dataset, you may contact the Research & Development Division of the Chicago Police Department at 312.745.6071 or RandD@chicagopolice.org. Disclaimer: These crimes may be based upon preliminary information supplied to the Police Department by the reporting parties that have not been verified. The preliminary crime classifications may be changed at a later date based upon additional investigation and there is always the possibility of mechanical or human error. Therefore, the Chicago Police Department does not guarantee (either expressed or implied) the accuracy, completeness, timeliness, or correct sequencing of the information and the information should not be used for comparison purposes over time. The Chicago Police Department will not be responsible for any error or omission, or for the use of, or the results obtained from the use of this information. All data visualizations on maps should be considered approximate and attempts to derive specific addresses are strictly prohibited. The Chicago Police Department is not responsible for the content of any off-site pages that are referenced by or that reference this web page other than an official City of Chicago or Chicago Police Department web page. The user specifically acknowledges that the Chicago Police Department is not responsible for any defamatory, offensive, misleading, or illegal conduct of other users, links, or third parties and that the risk of injury from the foregoing rests entirely with the user.  The unauthorized use of the words \"Chicago Police Department,\" \"Chicago Police,\" or any colorable imitation of these words or the unauthorized use of the Chicago Police Department logo is unlawful. This web page does not, in any way, authorize such use. Data is updated daily Tuesday through Sunday. The dataset contains more than 65,000 records/rows of data and cannot be viewed in full in Microsoft Excel. Therefore, when downloading the file, select CSV from the Export menu. Open the file in an ASCII text editor, such as Wordpad, to view and search. To access a list of Chicago Police Department - Illinois Uniform Crime Reporting (IUCR) codes, go to http://data.cityofchicago.org/Public-Safety/Chicago-Police-Department-Illinois-Uniform-Crime-R/c7ck-438e",
+      "displayType" : "map",
+      "downloadCount" : 23,
+      "moderationStatus" : true,
+      "numberOfComments" : 0,
+      "oid" : 772084,
+      "publicationAppendEnabled" : false,
+      "publicationDate" : 1339843962,
+      "publicationGroup" : 239997,
+      "publicationStage" : "published",
+      "rowsUpdatedAt" : 1339843835,
+      "rowsUpdatedBy" : "scy9-9wg4",
+      "signed" : false,
+      "state" : "normal",
+      "tableId" : 361529,
+      "totalTimesRated" : 0,
+      "viewCount" : 646,
+      "viewLastModified" : 1331766017,
+      "viewType" : "tabular",
+      "columns" : [ {
+        "id" : -1,
+        "name" : "sid",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":sid",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : {
+        }
+      }, {
+        "id" : -1,
+        "name" : "id",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":id",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : {
+        }
+      }, {
+        "id" : -1,
+        "name" : "position",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":position",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : {
+        }
+      }, {
+        "id" : -1,
+        "name" : "created_at",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":created_at",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : {
+        }
+      }, {
+        "id" : -1,
+        "name" : "created_meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":created_meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : {
+        }
+      }, {
+        "id" : -1,
+        "name" : "updated_at",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":updated_at",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : {
+        }
+      }, {
+        "id" : -1,
+        "name" : "updated_meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":updated_meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : {
+        }
+      }, {
+        "id" : -1,
+        "name" : "meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : {
+        }
+      }, {
+        "id" : 11229377,
+        "name" : "Case Number",
+        "dataTypeName" : "text",
+        "fieldName" : "case_number",
+        "position" : 1,
+        "renderTypeName" : "text",
+        "tableColumnId" : 1514295,
+        "width" : 134,
+        "cachedContents" : {
+          "non_null" : 110388,
+          "smallest" : "223432",
+          "null" : 1,
+          "largest" : "VV209100",
+          "top" : [ {
+            "count" : 20,
+            "item" : "HV336366"
+          }, {
+            "count" : 19,
+            "item" : "HV325213"
+          }, {
+            "count" : 18,
+            "item" : "HV336160"
+          }, {
+            "count" : 17,
+            "item" : "HV336574"
+          }, {
+            "count" : 16,
+            "item" : "HV336546"
+          }, {
+            "count" : 15,
+            "item" : "HV336564"
+          }, {
+            "count" : 14,
+            "item" : "HV336406"
+          }, {
+            "count" : 13,
+            "item" : "HV336497"
+          }, {
+            "count" : 12,
+            "item" : "HV336437"
+          }, {
+            "count" : 11,
+            "item" : "HV336671"
+          }, {
+            "count" : 10,
+            "item" : "HV336176"
+          }, {
+            "count" : 9,
+            "item" : "HV336642"
+          }, {
+            "count" : 8,
+            "item" : "HV335400"
+          }, {
+            "count" : 7,
+            "item" : "HV325640"
+          }, {
+            "count" : 6,
+            "item" : "HV326579"
+          }, {
+            "count" : 5,
+            "item" : "HV315454"
+          } ]
+        },
+        "format" : {
+          "aggregate" : "count",
+          "align" : "left"
+        }
+      }, {
+        "id" : 11229376,
+        "name" : "ID",
+        "dataTypeName" : "number",
+        "fieldName" : "id",
+        "position" : 2,
+        "renderTypeName" : "number",
+        "tableColumnId" : 2154841,
+        "width" : 100,
+        "cachedContents" : {
+          "non_null" : 110389,
+          "smallest" : "20224",
+          "sum" : "939338677373",
+          "null" : 0,
+          "average" : "8509350.364375074",
+          "largest" : "8661837",
+          "top" : [ {
+            "count" : 20,
+            "item" : "8661688"
+          }, {
+            "count" : 19,
+            "item" : "8661705"
+          }, {
+            "count" : 18,
+            "item" : "8661710"
+          }, {
+            "count" : 17,
+            "item" : "8661712"
+          }, {
+            "count" : 16,
+            "item" : "8661718"
+          }, {
+            "count" : 15,
+            "item" : "8661730"
+          }, {
+            "count" : 14,
+            "item" : "8661732"
+          }, {
+            "count" : 13,
+            "item" : "8661735"
+          }, {
+            "count" : 12,
+            "item" : "8661770"
+          }, {
+            "count" : 11,
+            "item" : "8661775"
+          }, {
+            "count" : 10,
+            "item" : "8661786"
+          }, {
+            "count" : 9,
+            "item" : "8661798"
+          }, {
+            "count" : 8,
+            "item" : "8661808"
+          }, {
+            "count" : 7,
+            "item" : "8661837"
+          }, {
+            "count" : 6,
+            "item" : "8650480"
+          }, {
+            "count" : 5,
+            "item" : "8651330"
+          }, {
+            "count" : 4,
+            "item" : "20443"
+          } ]
+        },
+        "format" : {
+          "precisionStyle" : "standard",
+          "noCommas" : "true",
+          "align" : "right"
+        }
+      }, {
+        "id" : 11229378,
+        "name" : "Date",
+        "dataTypeName" : "calendar_date",
+        "fieldName" : "date",
+        "position" : 3,
+        "renderTypeName" : "calendar_date",
+        "tableColumnId" : 1514296,
+        "width" : 148,
+        "cachedContents" : {
+          "non_null" : 110372,
+          "smallest" : "2012-01-01T00:00:00",
+          "null" : 17,
+          "largest" : "2012-06-09T23:45:00",
+          "top" : [ {
+            "count" : 20,
+            "item" : "2012-06-09T12:00:00"
+          }, {
+            "count" : 19,
+            "item" : "2012-06-09T21:00:00"
+          }, {
+            "count" : 18,
+            "item" : "2012-06-09T09:00:00"
+          }, {
+            "count" : 17,
+            "item" : "2012-06-09T10:00:00"
+          }, {
+            "count" : 16,
+            "item" : "2012-05-31T20:30:00"
+          }, {
+            "count" : 15,
+            "item" : "2012-06-09T14:00:00"
+          }, {
+            "count" : 14,
+            "item" : "2012-06-05T09:00:00"
+          }, {
+            "count" : 13,
+            "item" : "2012-01-01T07:00:00"
+          }, {
+            "count" : 12,
+            "item" : "2012-05-31T09:30:00"
+          }, {
+            "count" : 11,
+            "item" : "2012-06-08T12:00:00"
+          }, {
+            "count" : 10,
+            "item" : "2012-06-02T12:00:00"
+          }, {
+            "count" : 9,
+            "item" : "2012-06-06T12:00:00"
+          }, {
+            "count" : 8,
+            "item" : "2012-06-09T22:02:00"
+          }, {
+            "count" : 7,
+            "item" : "2012-05-11T10:00:00"
+          }, {
+            "count" : 6,
+            "item" : "2012-03-18T19:42:00"
+          }, {
+            "count" : 5,
+            "item" : "2012-06-01T10:30:00"
+          }, {
+            "count" : 4,
+            "item" : "2012-06-06T22:00:00"
+          }, {
+            "count" : 3,
+            "item" : "2012-06-07T20:00:00"
+          }, {
+            "count" : 2,
+            "item" : "2012-06-07T18:00:00"
+          }, {
+            "count" : 1,
+            "item" : "2012-05-01T12:00:00"
+          } ]
+        },
+        "format" : {
+          "align" : "left",
+          "view" : "date_time"
+        }
+      }, {
+        "id" : 11229379,
+        "name" : "Block",
+        "dataTypeName" : "text",
+        "fieldName" : "block",
+        "position" : 4,
+        "renderTypeName" : "text",
+        "tableColumnId" : 1514297,
+        "width" : 160,
+        "cachedContents" : {
+          "non_null" : 110389,
+          "smallest" : "0000X E 100TH PL",
+          "null" : 0,
+          "largest" : "137XX S LEYDEN AVE",
+          "top" : [ {
+            "count" : 20,
+            "item" : "005XX W OHARE ST"
+          }, {
+            "count" : 19,
+            "item" : "010XX E 111TH ST"
+          }, {
+            "count" : 18,
+            "item" : "011XX W 63RD ST"
+          }, {
+            "count" : 17,
+            "item" : "080XX S WOLCOTT AVE"
+          }, {
+            "count" : 16,
+            "item" : "022XX S ST LOUIS AVE"
+          }, {
+            "count" : 15,
+            "item" : "090XX S JEFFERY BLVD"
+          }, {
+            "count" : 14,
+            "item" : "057XX N MEADE AVE"
+          }, {
+            "count" : 13,
+            "item" : "081XX S MUSKEGON AVE"
+          }, {
+            "count" : 12,
+            "item" : "090XX S MARSHFIELD AVE"
+          }, {
+            "count" : 11,
+            "item" : "083XX S STEWART AVE"
+          }, {
+            "count" : 10,
+            "item" : "055XX N CHRISTIANA AVE"
+          }, {
+            "count" : 9,
+            "item" : "056XX S KEDZIE AVE"
+          }, {
+            "count" : 8,
+            "item" : "024XX N ALBANY AVE"
+          }, {
+            "count" : 7,
+            "item" : "016XX S MILLARD AVE"
+          }, {
+            "count" : 6,
+            "item" : "080XX S STEWART AVE"
+          }, {
+            "count" : 5,
+            "item" : "082XX S EBERHART AVE"
+          }, {
+            "count" : 4,
+            "item" : "073XX N COLES AVE"
+          } ]
+        },
+        "format" : {
+        }
+      }, {
+        "id" : 11229380,
+        "name" : "IUCR",
+        "dataTypeName" : "text",
+        "fieldName" : "iucr",
+        "position" : 5,
+        "renderTypeName" : "text",
+        "tableColumnId" : 1514298,
+        "width" : 148,
+        "cachedContents" : {
+          "non_null" : 110389,
+          "smallest" : "0110",
+          "null" : 0,
+          "largest" : "5110",
+          "top" : [ {
+            "count" : 20,
+            "item" : "0460"
+          }, {
+            "count" : 19,
+            "item" : "1811"
+          }, {
+            "count" : 18,
+            "item" : "1330"
+          }, {
+            "count" : 17,
+            "item" : "1310"
+          }, {
+            "count" : 16,
+            "item" : "0560"
+          }, {
+            "count" : 15,
+            "item" : "1320"
+          }, {
+            "count" : 14,
+            "item" : "0486"
+          }, {
+            "count" : 13,
+            "item" : "0820"
+          }, {
+            "count" : 12,
+            "item" : "0890"
+          }, {
+            "count" : 11,
+            "item" : "0810"
+          }, {
+            "count" : 10,
+            "item" : "0910"
+          }, {
+            "count" : 9,
+            "item" : "0320"
+          }, {
+            "count" : 8,
+            "item" : "2024"
+          }, {
+            "count" : 7,
+            "item" : "0610"
+          }, {
+            "count" : 6,
+            "item" : "2820"
+          }, {
+            "count" : 5,
+            "item" : "2825"
+          }, {
+            "count" : 4,
+            "item" : "0860"
+          }, {
+            "count" : 3,
+            "item" : "0620"
+          }, {
+            "count" : 2,
+            "item" : "0840"
+          }, {
+            "count" : 1,
+            "item" : "031A"
+          } ]
+        },
+        "format" : {
+        }
+      }, {
+        "id" : 11229381,
+        "name" : "Primary Type",
+        "dataTypeName" : "text",
+        "fieldName" : "primary_type",
+        "position" : 6,
+        "renderTypeName" : "text",
+        "tableColumnId" : 1514299,
+        "width" : 244,
+        "cachedContents" : {
+          "non_null" : 110389,
+          "smallest" : "ARSON",
+          "null" : 0,
+          "largest" : "WEAPONS VIOLATION",
+          "top" : [ {
+            "count" : 20,
+            "item" : "BATTERY"
+          }, {
+            "count" : 19,
+            "item" : "ASSAULT"
+          }, {
+            "count" : 18,
+            "item" : "CRIMINAL DAMAGE"
+          }, {
+            "count" : 17,
+            "item" : "CRIMINAL TRESPASS"
+          }, {
+            "count" : 16,
+            "item" : "NARCOTICS"
+          }, {
+            "count" : 15,
+            "item" : "WEAPONS VIOLATION"
+          }, {
+            "count" : 14,
+            "item" : "OTHER OFFENSE"
+          }, {
+            "count" : 13,
+            "item" : "BURGLARY"
+          }, {
+            "count" : 12,
+            "item" : "ROBBERY"
+          }, {
+            "count" : 11,
+            "item" : "ARSON"
+          }, {
+            "count" : 10,
+            "item" : "PUBLIC PEACE VIOLATION"
+          }, {
+            "count" : 9,
+            "item" : "THEFT"
+          }, {
+            "count" : 8,
+            "item" : "LIQUOR LAW VIOLATION"
+          }, {
+            "count" : 7,
+            "item" : "DECEPTIVE PRACTICE"
+          }, {
+            "count" : 6,
+            "item" : "OFFENSE INVOLVING CHILDREN"
+          }, {
+            "count" : 5,
+            "item" : "CRIM SEXUAL ASSAULT"
+          }, {
+            "count" : 4,
+            "item" : "MOTOR VEHICLE THEFT"
+          }, {
+            "count" : 3,
+            "item" : "SEX OFFENSE"
+          }, {
+            "count" : 2,
+            "item" : "INTERFERENCE WITH PUBLIC OFFICER"
+          }, {
+            "count" : 1,
+            "item" : "PROSTITUTION"
+          } ]
+        },
+        "format" : {
+        }
+      }, {
+        "id" : 11229382,
+        "name" : "Description",
+        "dataTypeName" : "text",
+        "fieldName" : "description",
+        "position" : 7,
+        "renderTypeName" : "text",
+        "tableColumnId" : 1514300,
+        "width" : 232,
+        "cachedContents" : {
+          "non_null" : 110389,
+          "smallest" : "$500 AND UNDER",
+          "null" : 0,
+          "largest" : "VIOLATION OF STALKING NO CONTACT ORDER",
+          "top" : [ {
+            "count" : 20,
+            "item" : "SIMPLE"
+          }, {
+            "count" : 19,
+            "item" : "POSS: CANNABIS 30GMS OR LESS"
+          }, {
+            "count" : 18,
+            "item" : "TO LAND"
+          }, {
+            "count" : 17,
+            "item" : "TO PROPERTY"
+          }, {
+            "count" : 16,
+            "item" : "TO VEHICLE"
+          }, {
+            "count" : 15,
+            "item" : "DOMESTIC BATTERY SIMPLE"
+          }, {
+            "count" : 14,
+            "item" : "$500 AND UNDER"
+          }, {
+            "count" : 13,
+            "item" : "FROM BUILDING"
+          }, {
+            "count" : 12,
+            "item" : "AUTOMOBILE"
+          }, {
+            "count" : 11,
+            "item" : "STRONGARM - NO WEAPON"
+          }, {
+            "count" : 10,
+            "item" : "OVER $500"
+          }, {
+            "count" : 9,
+            "item" : "POSS: HEROIN(WHITE)"
+          }, {
+            "count" : 8,
+            "item" : "FORCIBLE ENTRY"
+          }, {
+            "count" : 7,
+            "item" : "TELEPHONE THREAT"
+          }, {
+            "count" : 6,
+            "item" : "HARASSMENT BY TELEPHONE"
+          }, {
+            "count" : 5,
+            "item" : "RETAIL THEFT"
+          }, {
+            "count" : 4,
+            "item" : "UNLAWFUL ENTRY"
+          }, {
+            "count" : 3,
+            "item" : "AGGRAVATED: HANDGUN"
+          }, {
+            "count" : 2,
+            "item" : "FINANCIAL ID THEFT: OVER $300"
+          }, {
+            "count" : 1,
+            "item" : "ARMED: HANDGUN"
+          } ]
+        },
+        "format" : {
+        }
+      }, {
+        "id" : 11229383,
+        "name" : "Location Description",
+        "dataTypeName" : "text",
+        "fieldName" : "location_description",
+        "position" : 8,
+        "renderTypeName" : "text",
+        "tableColumnId" : 1514301,
+        "width" : 340,
+        "cachedContents" : {
+          "non_null" : 110320,
+          "smallest" : "ABANDONED BUILDING",
+          "null" : 69,
+          "largest" : "YARD",
+          "top" : [ {
+            "count" : 20,
+            "item" : "OTHER"
+          }, {
+            "count" : 19,
+            "item" : "BAR OR TAVERN"
+          }, {
+            "count" : 18,
+            "item" : "SIDEWALK"
+          }, {
+            "count" : 17,
+            "item" : "STREET"
+          }, {
+            "count" : 16,
+            "item" : "PARKING LOT/GARAGE(NON.RESID.)"
+          }, {
+            "count" : 15,
+            "item" : "RESIDENTIAL YARD (FRONT/BACK)"
+          }, {
+            "count" : 14,
+            "item" : "RESIDENCE"
+          }, {
+            "count" : 13,
+            "item" : "RESIDENCE PORCH/HALLWAY"
+          }, {
+            "count" : 12,
+            "item" : "ALLEY"
+          }, {
+            "count" : 11,
+            "item" : "APARTMENT"
+          }, {
+            "count" : 10,
+            "item" : "CTA TRAIN"
+          }, {
+            "count" : 9,
+            "item" : "GAS STATION"
+          }, {
+            "count" : 8,
+            "item" : "GROCERY FOOD STORE"
+          }, {
+            "count" : 7,
+            "item" : "RESTAURANT"
+          }, {
+            "count" : 6,
+            "item" : "CTA PLATFORM"
+          }, {
+            "count" : 5,
+            "item" : "VEHICLE NON-COMMERCIAL"
+          }, {
+            "count" : 4,
+            "item" : "SMALL RETAIL STORE"
+          }, {
+            "count" : 3,
+            "item" : "RESIDENCE-GARAGE"
+          }, {
+            "count" : 2,
+            "item" : "DEPARTMENT STORE"
+          }, {
+            "count" : 1,
+            "item" : "SCHOOL, PUBLIC, BUILDING"
+          } ]
+        },
+        "format" : {
+        }
+      }, {
+        "id" : 11229384,
+        "name" : "Arrest",
+        "dataTypeName" : "checkbox",
+        "fieldName" : "arrest",
+        "position" : 9,
+        "renderTypeName" : "checkbox",
+        "tableColumnId" : 1514302,
+        "width" : 172,
+        "cachedContents" : {
+          "non_null" : 110389,
+          "smallest" : false,
+          "null" : 0,
+          "largest" : true,
+          "top" : [ {
+            "count" : 20,
+            "item" : false
+          }, {
+            "count" : 19,
+            "item" : true
+          } ]
+        },
+        "format" : {
+        }
+      }, {
+        "id" : 11229385,
+        "name" : "Domestic",
+        "dataTypeName" : "checkbox",
+        "fieldName" : "domestic",
+        "position" : 10,
+        "renderTypeName" : "checkbox",
+        "tableColumnId" : 1514303,
+        "width" : 196,
+        "cachedContents" : {
+          "non_null" : 110389,
+          "smallest" : false,
+          "null" : 0,
+          "largest" : true,
+          "top" : [ {
+            "count" : 20,
+            "item" : false
+          }, {
+            "count" : 19,
+            "item" : true
+          } ]
+        },
+        "format" : {
+        }
+      }, {
+        "id" : 11229386,
+        "name" : "Beat",
+        "dataTypeName" : "text",
+        "fieldName" : "beat",
+        "position" : 11,
+        "renderTypeName" : "text",
+        "tableColumnId" : 1514304,
+        "width" : 148,
+        "cachedContents" : {
+          "non_null" : 110389,
+          "smallest" : "0111",
+          "null" : 0,
+          "largest" : "2535",
+          "top" : [ {
+            "count" : 20,
+            "item" : "1654"
+          }, {
+            "count" : 19,
+            "item" : "0822"
+          }, {
+            "count" : 18,
+            "item" : "2221"
+          }, {
+            "count" : 17,
+            "item" : "0513"
+          }, {
+            "count" : 16,
+            "item" : "0611"
+          }, {
+            "count" : 15,
+            "item" : "0413"
+          }, {
+            "count" : 14,
+            "item" : "1622"
+          }, {
+            "count" : 13,
+            "item" : "0422"
+          }, {
+            "count" : 12,
+            "item" : "0622"
+          }, {
+            "count" : 11,
+            "item" : "1712"
+          }, {
+            "count" : 10,
+            "item" : "0824"
+          }, {
+            "count" : 9,
+            "item" : "1414"
+          }, {
+            "count" : 8,
+            "item" : "1014"
+          }, {
+            "count" : 7,
+            "item" : "0623"
+          }, {
+            "count" : 6,
+            "item" : "0631"
+          }, {
+            "count" : 5,
+            "item" : "0334"
+          } ]
+        },
+        "format" : {
+        }
+      }, {
+        "id" : 11229387,
+        "name" : "Ward",
+        "dataTypeName" : "number",
+        "fieldName" : "ward",
+        "position" : 12,
+        "renderTypeName" : "number",
+        "tableColumnId" : 1514305,
+        "width" : 148,
+        "cachedContents" : {
+          "non_null" : 110383,
+          "smallest" : "1",
+          "sum" : "2493354",
+          "null" : 6,
+          "average" : "22.58820651730792",
+          "largest" : "50",
+          "top" : [ {
+            "count" : 20,
+            "item" : "42"
+          }, {
+            "count" : 19,
+            "item" : "6"
+          }, {
+            "count" : 18,
+            "item" : "34"
+          }, {
+            "count" : 17,
+            "item" : "24"
+          }, {
+            "count" : 16,
+            "item" : "8"
+          }, {
+            "count" : 15,
+            "item" : "16"
+          }, {
+            "count" : 14,
+            "item" : "27"
+          }, {
+            "count" : 13,
+            "item" : "37"
+          }, {
+            "count" : 12,
+            "item" : "9"
+          }, {
+            "count" : 11,
+            "item" : "7"
+          }, {
+            "count" : 10,
+            "item" : "29"
+          }, {
+            "count" : 9,
+            "item" : "28"
+          }, {
+            "count" : 8,
+            "item" : "5"
+          }, {
+            "count" : 7,
+            "item" : "2"
+          }, {
+            "count" : 6,
+            "item" : "17"
+          }, {
+            "count" : 5,
+            "item" : "15"
+          }, {
+            "count" : 4,
+            "item" : "21"
+          }, {
+            "count" : 3,
+            "item" : "20"
+          }, {
+            "count" : 2,
+            "item" : "3"
+          }, {
+            "count" : 1,
+            "item" : "10"
+          } ]
+        },
+        "format" : {
+        }
+      }, {
+        "id" : 11229388,
+        "name" : "FBI Code",
+        "dataTypeName" : "text",
+        "fieldName" : "fbi_code",
+        "position" : 13,
+        "renderTypeName" : "text",
+        "tableColumnId" : 1514306,
+        "width" : 196,
+        "cachedContents" : {
+          "non_null" : 110389,
+          "smallest" : "01A",
+          "null" : 0,
+          "largest" : "26",
+          "top" : [ {
+            "count" : 20,
+            "item" : "08B"
+          }, {
+            "count" : 19,
+            "item" : "04A"
+          }, {
+            "count" : 18,
+            "item" : "04B"
+          }, {
+            "count" : 17,
+            "item" : "14"
+          }, {
+            "count" : 16,
+            "item" : "26"
+          }, {
+            "count" : 15,
+            "item" : "18"
+          }, {
+            "count" : 14,
+            "item" : "15"
+          }, {
+            "count" : 13,
+            "item" : "08A"
+          }, {
+            "count" : 12,
+            "item" : "05"
+          }, {
+            "count" : 11,
+            "item" : "03"
+          }, {
+            "count" : 10,
+            "item" : "09"
+          }, {
+            "count" : 9,
+            "item" : "24"
+          }, {
+            "count" : 8,
+            "item" : "06"
+          }, {
+            "count" : 7,
+            "item" : "22"
+          }, {
+            "count" : 6,
+            "item" : "11"
+          }, {
+            "count" : 5,
+            "item" : "20"
+          }, {
+            "count" : 4,
+            "item" : "02"
+          }, {
+            "count" : 3,
+            "item" : "07"
+          }, {
+            "count" : 2,
+            "item" : "10"
+          }, {
+            "count" : 1,
+            "item" : "17"
+          } ]
+        },
+        "format" : {
+        }
+      }, {
+        "id" : 11229389,
+        "name" : "X Coordinate",
+        "dataTypeName" : "number",
+        "fieldName" : "x_coordinate",
+        "position" : 14,
+        "renderTypeName" : "number",
+        "tableColumnId" : 1514307,
+        "width" : 244,
+        "cachedContents" : {
+          "non_null" : 109699,
+          "smallest" : "1094587",
+          "sum" : "127737446223",
+          "null" : 690,
+          "average" : "1164435.830982962",
+          "largest" : "1205078",
+          "top" : [ {
+            "count" : 20,
+            "item" : "1172797"
+          }, {
+            "count" : 19,
+            "item" : "1160319"
+          }, {
+            "count" : 18,
+            "item" : "1178268"
+          }, {
+            "count" : 17,
+            "item" : "1157419"
+          }, {
+            "count" : 16,
+            "item" : "1157822"
+          }, {
+            "count" : 15,
+            "item" : "1141804"
+          }, {
+            "count" : 14,
+            "item" : "1175871"
+          }, {
+            "count" : 13,
+            "item" : "1159158"
+          }, {
+            "count" : 12,
+            "item" : "1137356"
+          }, {
+            "count" : 11,
+            "item" : "1135630"
+          }, {
+            "count" : 10,
+            "item" : "1169839"
+          }, {
+            "count" : 9,
+            "item" : "1153967"
+          }, {
+            "count" : 8,
+            "item" : "1147224"
+          }, {
+            "count" : 7,
+            "item" : "1173656"
+          }, {
+            "count" : 6,
+            "item" : "1166032"
+          }, {
+            "count" : 5,
+            "item" : "1174717"
+          }, {
+            "count" : 4,
+            "item" : "1153660"
+          }, {
+            "count" : 3,
+            "item" : "1167692"
+          }, {
+            "count" : 2,
+            "item" : "1177127"
+          }, {
+            "count" : 1,
+            "item" : "1173885"
+          } ]
+        },
+        "format" : {
+          "precisionStyle" : "standard",
+          "align" : "right",
+          "noCommas" : "true"
+        }
+      }, {
+        "id" : 11229390,
+        "name" : "Y Coordinate",
+        "dataTypeName" : "number",
+        "fieldName" : "y_coordinate",
+        "position" : 15,
+        "renderTypeName" : "number",
+        "tableColumnId" : 1514308,
+        "width" : 244,
+        "cachedContents" : {
+          "non_null" : 109699,
+          "smallest" : "1814010",
+          "sum" : "206772494937",
+          "null" : 690,
+          "average" : "1884907.746989489",
+          "largest" : "1951532",
+          "top" : [ {
+            "count" : 20,
+            "item" : "1828546"
+          }, {
+            "count" : 19,
+            "item" : "1862752"
+          }, {
+            "count" : 18,
+            "item" : "1906726"
+          }, {
+            "count" : 17,
+            "item" : "1862925"
+          }, {
+            "count" : 16,
+            "item" : "1936389"
+          }, {
+            "count" : 15,
+            "item" : "1910109"
+          }, {
+            "count" : 14,
+            "item" : "1904436"
+          }, {
+            "count" : 13,
+            "item" : "1918787"
+          }, {
+            "count" : 12,
+            "item" : "1900190"
+          }, {
+            "count" : 11,
+            "item" : "1924353"
+          }, {
+            "count" : 10,
+            "item" : "1869796"
+          }, {
+            "count" : 9,
+            "item" : "1947492"
+          }, {
+            "count" : 8,
+            "item" : "1917380"
+          }, {
+            "count" : 7,
+            "item" : "1875718"
+          }, {
+            "count" : 6,
+            "item" : "1903917"
+          }, {
+            "count" : 5,
+            "item" : "1851154"
+          }, {
+            "count" : 4,
+            "item" : "1909474"
+          }, {
+            "count" : 3,
+            "item" : "1863435"
+          }, {
+            "count" : 2,
+            "item" : "1900872"
+          }, {
+            "count" : 1,
+            "item" : "1909423"
+          } ]
+        },
+        "format" : {
+          "precisionStyle" : "standard",
+          "align" : "right",
+          "noCommas" : "true"
+        }
+      }, {
+        "id" : 11229392,
+        "name" : "Year",
+        "dataTypeName" : "number",
+        "fieldName" : "year",
+        "position" : 16,
+        "renderTypeName" : "number",
+        "tableColumnId" : 1518776,
+        "width" : 100,
+        "cachedContents" : {
+          "non_null" : 110389,
+          "smallest" : "2012",
+          "sum" : "222102668",
+          "null" : 0,
+          "average" : "2012",
+          "largest" : "2012",
+          "top" : [ {
+            "count" : 20,
+            "item" : "2012"
+          } ]
+        },
+        "format" : {
+          "precisionStyle" : "standard",
+          "noCommas" : "true",
+          "align" : "right"
+        }
+      }, {
+        "id" : 11229391,
+        "name" : "Updated On",
+        "dataTypeName" : "calendar_date",
+        "fieldName" : "updated_on",
+        "position" : 17,
+        "renderTypeName" : "calendar_date",
+        "tableColumnId" : 2154842,
+        "width" : 100,
+        "cachedContents" : {
+          "non_null" : 110389,
+          "smallest" : "2012-01-03T00:40:11",
+          "null" : 0,
+          "largest" : "2012-06-16T00:38:40",
+          "top" : [ {
+            "count" : 20,
+            "item" : "2012-03-28T09:57:58"
+          }, {
+            "count" : 19,
+            "item" : "2012-02-01T00:00:00"
+          }, {
+            "count" : 18,
+            "item" : "2012-04-09T12:44:47"
+          }, {
+            "count" : 17,
+            "item" : "2012-01-22T00:40:30"
+          }, {
+            "count" : 16,
+            "item" : "2012-01-29T00:40:10"
+          }, {
+            "count" : 15,
+            "item" : "2012-01-18T00:42:35"
+          }, {
+            "count" : 14,
+            "item" : "2012-06-04T13:47:36"
+          }, {
+            "count" : 13,
+            "item" : "2012-05-02T00:39:26"
+          }, {
+            "count" : 12,
+            "item" : "2012-05-04T00:39:15"
+          }, {
+            "count" : 11,
+            "item" : "2012-05-08T00:40:30"
+          }, {
+            "count" : 10,
+            "item" : "2012-05-06T00:39:39"
+          }, {
+            "count" : 9,
+            "item" : "2012-05-09T00:40:03"
+          }, {
+            "count" : 8,
+            "item" : "2012-05-11T00:52:25"
+          }, {
+            "count" : 7,
+            "item" : "2012-05-12T00:39:00"
+          }, {
+            "count" : 6,
+            "item" : "2012-05-10T00:39:53"
+          }, {
+            "count" : 5,
+            "item" : "2012-05-13T00:39:06"
+          }, {
+            "count" : 4,
+            "item" : "2012-05-16T00:40:33"
+          }, {
+            "count" : 3,
+            "item" : "2012-05-15T00:39:53"
+          }, {
+            "count" : 2,
+            "item" : "2012-05-17T00:39:17"
+          }, {
+            "count" : 1,
+            "item" : "2012-05-18T00:41:41"
+          } ]
+        },
+        "format" : {
+        }
+      }, {
+        "id" : 11229393,
+        "name" : "Latitude",
+        "dataTypeName" : "number",
+        "fieldName" : "latitude",
+        "position" : 18,
+        "renderTypeName" : "number",
+        "tableColumnId" : 1514309,
+        "width" : 196,
+        "cachedContents" : {
+          "non_null" : 109699,
+          "smallest" : "41.6448240617811",
+          "sum" : "4589782.733198709416421",
+          "null" : 690,
+          "average" : "41.83978644471426",
+          "largest" : "42.022659175268615",
+          "top" : [ {
+            "count" : 20,
+            "item" : "41.684958095844365"
+          }, {
+            "count" : 19,
+            "item" : "41.77909019715544"
+          }, {
+            "count" : 18,
+            "item" : "41.89936948430384"
+          }, {
+            "count" : 17,
+            "item" : "41.77962418165328"
+          }, {
+            "count" : 16,
+            "item" : "41.9812082410737"
+          }, {
+            "count" : 15,
+            "item" : "41.909405925964364"
+          }, {
+            "count" : 14,
+            "item" : "41.89313991079527"
+          }, {
+            "count" : 13,
+            "item" : "41.93287994373238"
+          }, {
+            "count" : 12,
+            "item" : "41.88226814580943"
+          }, {
+            "count" : 11,
+            "item" : "41.94860515570674"
+          }, {
+            "count" : 10,
+            "item" : "41.79821833811897"
+          }, {
+            "count" : 9,
+            "item" : "42.01175335631467"
+          }, {
+            "count" : 8,
+            "item" : "41.929256162721444"
+          }, {
+            "count" : 7,
+            "item" : "41.81438510443371"
+          }, {
+            "count" : 6,
+            "item" : "41.8919315143022"
+          }, {
+            "count" : 5,
+            "item" : "41.74695519800486"
+          }, {
+            "count" : 4,
+            "item" : "41.9074356248749"
+          }, {
+            "count" : 3,
+            "item" : "41.78080937272743"
+          }, {
+            "count" : 2,
+            "item" : "41.88333174681996"
+          }, {
+            "count" : 1,
+            "item" : "41.90686897382424"
+          } ]
+        },
+        "format" : {
+        }
+      }, {
+        "id" : 11229394,
+        "name" : "Longitude",
+        "dataTypeName" : "number",
+        "fieldName" : "longitude",
+        "position" : 19,
+        "renderTypeName" : "number",
+        "tableColumnId" : 1514310,
+        "width" : 208,
+        "cachedContents" : {
+          "non_null" : 109699,
+          "smallest" : "-87.92736558911899",
+          "sum" : "-9617545.20727453835081",
+          "null" : 690,
+          "average" : "-87.67213199094375",
+          "largest" : "-87.52467610030516",
+          "top" : [ {
+            "count" : 20,
+            "item" : "-87.64306452486049"
+          }, {
+            "count" : 19,
+            "item" : "-87.68780433763769"
+          }, {
+            "count" : 18,
+            "item" : "-87.62066422371676"
+          }, {
+            "count" : 17,
+            "item" : "-87.69843140927603"
+          }, {
+            "count" : 16,
+            "item" : "-87.69495056868973"
+          }, {
+            "count" : 15,
+            "item" : "-87.75451299630402"
+          }, {
+            "count" : 14,
+            "item" : "-87.62953726318067"
+          }, {
+            "count" : 13,
+            "item" : "-87.69052275880294"
+          }, {
+            "count" : 12,
+            "item" : "-87.77109203006478"
+          }, {
+            "count" : 11,
+            "item" : "-87.77685431437556"
+          }, {
+            "count" : 10,
+            "item" : "-87.65269864696707"
+          }, {
+            "count" : 9,
+            "item" : "-87.7088302996484"
+          }, {
+            "count" : 8,
+            "item" : "-87.73441554414978"
+          }, {
+            "count" : 7,
+            "item" : "-87.63852548369071"
+          }, {
+            "count" : 6,
+            "item" : "-87.66568687883034"
+          }, {
+            "count" : 5,
+            "item" : "-87.6353649999977"
+          }, {
+            "count" : 4,
+            "item" : "-87.7109758593906"
+          }, {
+            "count" : 3,
+            "item" : "-87.66075457996351"
+          }, {
+            "count" : 2,
+            "item" : "-87.62503253956532"
+          }, {
+            "count" : 1,
+            "item" : "-87.63668230084552"
+          } ]
+        },
+        "format" : {
+        }
+      }, {
+        "id" : 11229395,
+        "name" : "Location",
+        "dataTypeName" : "location",
+        "fieldName" : "location",
+        "position" : 20,
+        "renderTypeName" : "location",
+        "tableColumnId" : 1514311,
+        "width" : 196,
+        "cachedContents" : {
+          "non_null" : 109699,
+          "smallest" : {
+            "longitude" : "-87.61635775500169",
+            "latitude" : "41.89096452734874"
+          },
+          "null" : 690,
+          "largest" : {
+            "longitude" : "-87.56139575905141",
+            "latitude" : "41.76299173701006"
+          },
+          "top" : [ {
+            "count" : 20,
+            "item" : {
+              "longitude" : "-87.64306452486049",
+              "latitude" : "41.684958095844365"
+            }
+          }, {
+            "count" : 19,
+            "item" : {
+              "longitude" : "-87.68780433763769",
+              "latitude" : "41.77909019715544"
+            }
+          }, {
+            "count" : 18,
+            "item" : {
+              "longitude" : "-87.62066422371676",
+              "latitude" : "41.89936948430384"
+            }
+          }, {
+            "count" : 17,
+            "item" : {
+              "longitude" : "-87.69843140927603",
+              "latitude" : "41.77962418165328"
+            }
+          }, {
+            "count" : 16,
+            "item" : {
+              "longitude" : "-87.69495056868973",
+              "latitude" : "41.9812082410737"
+            }
+          }, {
+            "count" : 15,
+            "item" : {
+              "longitude" : "-87.75451299630402",
+              "latitude" : "41.909405925964364"
+            }
+          }, {
+            "count" : 14,
+            "item" : {
+              "longitude" : "-87.62953726318067",
+              "latitude" : "41.89313991079527"
+            }
+          }, {
+            "count" : 13,
+            "item" : {
+              "longitude" : "-87.69052275880294",
+              "latitude" : "41.93287994373238"
+            }
+          }, {
+            "count" : 12,
+            "item" : {
+              "longitude" : "-87.77109203006478",
+              "latitude" : "41.88226814580943"
+            }
+          }, {
+            "count" : 11,
+            "item" : {
+              "longitude" : "-87.77685431437556",
+              "latitude" : "41.94860515570674"
+            }
+          }, {
+            "count" : 10,
+            "item" : {
+              "longitude" : "-87.65269864696707",
+              "latitude" : "41.79821833811897"
+            }
+          }, {
+            "count" : 9,
+            "item" : {
+              "longitude" : "-87.7088302996484",
+              "latitude" : "42.01175335631467"
+            }
+          }, {
+            "count" : 8,
+            "item" : {
+              "longitude" : "-87.73441554414978",
+              "latitude" : "41.929256162721444"
+            }
+          }, {
+            "count" : 7,
+            "item" : {
+              "longitude" : "-87.63852548369071",
+              "latitude" : "41.81438510443371"
+            }
+          }, {
+            "count" : 6,
+            "item" : {
+              "longitude" : "-87.66568687883034",
+              "latitude" : "41.8919315143022"
+            }
+          }, {
+            "count" : 5,
+            "item" : {
+              "longitude" : "-87.6353649999977",
+              "latitude" : "41.74695519800486"
+            }
+          }, {
+            "count" : 4,
+            "item" : {
+              "longitude" : "-87.7109758593906",
+              "latitude" : "41.9074356248749"
+            }
+          }, {
+            "count" : 3,
+            "item" : {
+              "longitude" : "-87.66075457996351",
+              "latitude" : "41.78080937272743"
+            }
+          }, {
+            "count" : 2,
+            "item" : {
+              "longitude" : "-87.62503253956532",
+              "latitude" : "41.88333174681996"
+            }
+          }, {
+            "count" : 1,
+            "item" : {
+              "longitude" : "-87.63668230084552",
+              "latitude" : "41.90686897382424"
+            }
+          } ]
+        },
+        "format" : {
+        },
+        "subColumnTypes" : [ "human_address", "latitude", "longitude", "machine_address", "needs_recoding" ]
+      } ],
+      "displayFormat" : {
+        "viewport" : {
+          "ymin" : 41.644907264077,
+          "ymax" : 42.022659175269,
+          "xmin" : -87.927365589119,
+          "xmax" : -87.524676100305
+        },
+        "plotStyle" : "point",
+        "color" : "#0000ff",
+        "flyoutsNoLabel" : false,
+        "type" : "google",
+        "plot" : {
+          "descriptionColumns" : [ {
+            "tableColumnId" : 1514296
+          }, {
+            "tableColumnId" : 1514299
+          }, {
+            "tableColumnId" : 1514301
+          }, {
+            "tableColumnId" : 1514300
+          } ],
+          "locationId" : 1514311,
+          "titleId" : 1514295
+        }
+      },
+      "grants" : [ {
+        "inherited" : true,
+        "type" : "viewer",
+        "flags" : [ "public" ]
+      } ],
+      "metadata" : {
+        "custom_fields" : {
+          "Metadata" : {
+            "Last Updated Date via Automated Load" : "",
+            "Data Owner" : "Police",
+            "Time Period" : "2001 to present, minus the most recent seven days",
+            "Frequency" : "Data is updated daily, Tuesday through Sunday"
+          }
+        },
+        "renderTypeConfig" : {
+          "visible" : {
+            "map" : true,
+            "table" : true
+          }
+        },
+        "availableDisplayTypes" : [ "map", "table", "fatrow", "page" ],
+        "rdfSubject" : "0",
+        "warnings" : [ "Error at row 1: There was an error converting the value in the column Date(2) to a calendar_date. Unknown date format 'dateocc'. There was an error converting the value in the column Arrest(8) to a checkbox. Unknown boolean format 'arrest'. There was an error converting the value in the column Domestic(9) to a checkbox. Unknown boolean format 'domestic'. There was an error converting the value in the column Ward(11) to a number. Unknown number format 'WARD'. There was an error converting the value in the column X Coordinate(13) to a number. Unknown number format 'X_COORD'. There was an error converting the value in the column Y Coordinate(14) to a number. Unknown number format 'Y_COORD'. There was an error converting the value in the column Year(15) to a number. Unknown number format 'YEAR'. There was an error converting the value in the column Latitude(16) to a number. Unknown number format 'LATITUDE'. There was an error converting the value in the column Longitude(17) to a number. Unknown number format 'LONGITUDE'. There was an error converting the value in the column Location(18) to a location. Unparsable address.", "Error at row 8589: There was an error converting the value in the column Ward(11) to a number. Unknown number format ''.", "Error at row 11229: There was an error converting the value in the column Ward(11) to a number. Unknown number format ''.", "Error at row 68745: There was an error converting the value in the column Ward(11) to a number. Unknown number format ''.", "Error at row 139839: There was an error converting the value in the column Ward(11) to a number. Unknown number format ''.", "Error at row 159108: There was an error converting the value in the column Ward(11) to a number. Unknown number format ''.", "Error at row 165903: There was an error converting the value in the column Ward(11) to a number. Unknown number format ''.", "Error at row 166040: There was an error converting the value in the column Ward(11) to a number. Unknown number format ''.", "Error at row 166151: There was an error converting the value in the column Ward(11) to a number. Unknown number format ''.", "Error at row 187590: There was an error converting the value in the column Ward(11) to a number. Unknown number format ''.", "Error at row 210833: There was an error converting the value in the column Ward(11) to a number. Unknown number format ''.", "Error at row 262724: There was an error converting the value in the column Ward(11) to a number. Unknown number format ''.", "Error at row 276939: There was an error converting the value in the column Ward(11) to a number. Unknown number format ''.", "Error at row 277072: There was an error converting the value in the column Ward(11) to a number. Unknown number format ''.", "Error at row 310911: There was an error converting the value in the column Date(2) to a calendar_date. Unknown date format '03/13/2011 02:00:00'.", "Error at row 310912: There was an error converting the value in the column Date(2) to a calendar_date. Unknown date format '03/13/2011 02:00:00'.", "Error at row 310909: There was an error converting the value in the column Date(2) to a calendar_date. Unknown date format '03/13/2011 02:00:00'.", "Error at row 310910: There was an error converting the value in the column Date(2) to a calendar_date. Unknown date format '03/13/2011 02:00:00'.", "Error at row 310915: There was an error converting the value in the column Date(2) to a calendar_date. Unknown date format '03/13/2011 02:00:00'.", "Error at row 310916: There was an error converting the value in the column Date(2) to a calendar_date. Unknown date format '03/13/2011 02:00:00'.", "Error at row 310913: There was an error converting the value in the column Date(2) to a calendar_date. Unknown date format '03/13/2011 02:00:00'.", "Error at row 310914: There was an error converting the value in the column Date(2) to a calendar_date. Unknown date format '03/13/2011 02:00:00'.", "Error at row 310903: There was an error converting the value in the column Date(2) to a calendar_date. Unknown date format '03/13/2011 02:51:00'.", "Error at row 310904: There was an error converting the value in the column Date(2) to a calendar_date. Unknown date format '03/13/2011 02:43:00'.", "Error at row 310907: There was an error converting the value in the column Date(2) to a calendar_date. Unknown date format '03/13/2011 02:00:00'.", "Error at row 310908: There was an error converting the value in the column Date(2) to a calendar_date. Unknown date format '03/13/2011 02:00:00'.", "Error at row 310905: There was an error converting the value in the column Date(2) to a calendar_date. Unknown date format '03/13/2011 02:35:00'.", "Error at row 310906: There was an error converting the value in the column Date(2) to a calendar_date. Unknown date format '03/13/2011 02:30:00'.", "Error at row 310917: There was an error converting the value in the column Date(2) to a calendar_date. Unknown date format '03/13/2011 02:00:00'.", "Error at row 343048: There was an error converting the value in the column Ward(11) to a number. Unknown number format ''.", "Error at row 345681: There was an error converting the value in the column Ward(11) to a number. Unknown number format ''.", "Error at row 363850: There was an error converting the value in the column Ward(11) to a number. Unknown number format ''.", "Error at row 422579: There was an error converting the value in the column Ward(11) to a number. Unknown number format ''.", "Error at row 429138: There was an error converting the value in the column Ward(11) to a number. Unknown number format ''.", "Error at row 454701: There was an error converting the value in the column Ward(11) to a number. Unknown number format ''.", "Error at row 472402: There was an error converting the value in the column Ward(11) to a number. Unknown number format ''.", "Error at row 480471: There was an error converting the value in the column Ward(11) to a number. Unknown number format ''.", "Error at row 505138: There was an error converting the value in the column Ward(11) to a number. Unknown number format ''.", "Error at row 532210: There was an error converting the value in the column Ward(11) to a number. Unknown number format ''.", "Error at row 543521: There was an error converting the value in the column Ward(11) to a number. Unknown number format ''.", "Error at row 544449: There was an error converting the value in the column Ward(11) to a number. Unknown number format ''.", "Error at row 547634: There was an error converting the value in the column Ward(11) to a number. Unknown number format ''.", "Error at row 565827: There was an error converting the value in the column Ward(11) to a number. Unknown number format ''.", "Error at row 646788: There was an error converting the value in the column Ward(11) to a number. Unknown number format ''.", "Error at row 672882: There was an error converting the value in the column Date(2) to a calendar_date. Unknown date format '03/14/2010 02:30:00'.", "Error at row 672881: There was an error converting the value in the column Date(2) to a calendar_date. Unknown date format '03/14/2010 02:45:00'.", "Error at row 672884: There was an error converting the value in the column Date(2) to a calendar_date. Unknown date format '03/14/2010 02:30:00'.", "Error at row 672883: There was an error converting the value in the column Date(2) to a calendar_date. Unknown date format '03/14/2010 02:30:00'.", "Error at row 672880: There was an error converting the value in the column Date(2) to a calendar_date. Unknown date format '03/14/2010 02:58:00'.", "Error at row 672895: There was an error converting the value in the column Date(2) to a calendar_date. Unknown date format '03/14/2010 02:00:00'.", "Error at row 672894: There was an error converting the value in the column Date(2) to a calendar_date. Unknown date format '03/14/2010 02:00:00'.", "Error at row 672893: There was an error converting the value in the column Date(2) to a calendar_date. Unknown date format '03/14/2010 02:00:00'.", "Error at row 672888: There was an error converting the value in the column Date(2) to a calendar_date. Unknown date format '03/14/2010 02:00:00'.", "Error at row 672887: There was an error converting the value in the column Date(2) to a calendar_date. Unknown date format '03/14/2010 02:15:00'.", "Error at row 672886: There was an error converting the value in the column Date(2) to a calendar_date. Unknown date format '03/14/2010 02:25:00'.", "Error at row 672885: There was an error converting the value in the column Date(2) to a calendar_date. Unknown date format '03/14/2010 02:30:00'.", "Error at row 672892: There was an error converting the value in the column Date(2) to a calendar_date. Unknown date format '03/14/2010 02:00:00'.", "Error at row 672891: There was an error converting the value in the column Date(2) to a calendar_date. Unknown date format '03/14/2010 02:00:00'.", "Error at row 672890: There was an error converting the value in the column Date(2) to a calendar_date. Unknown date format '03/14/2010 02:00:00'.", "Error at row 672889: There was an error converting the value in the column Date(2) to a calendar_date. Unknown date format '03/14/2010 02:00:00'.", "Error at row 682563: There was an error converting the value in the column Ward(11) to a number. Unknown number format ''.", "Error at row 709607: There was an error converting the value in the column Ward(11) to a number. Unknown number format ''.", "Error at row 721007: There was an error converting the value in the column Ward(11) to a number. Unknown number format ''.", "Error at row 722129: There was an error converting the value in the column Ward(11) to a number. Unknown number format ''.", "Error at row 728372: There was an error converting the value in the column Ward(11) to a number. Unknown number format ''.", "Error at row 728539: There was an error converting the value in the column Ward(11) to a number. Unknown number format ''.", "Error at row 741903: There was an error converting the value in the column Ward(11) to a number. Unknown number format ''.", "Error at row 906768: There was an error converting the value in the column Ward(11) to a number. Unknown number format ''.", "Error at row 981665: There was an error converting the value in the column Ward(11) to a number. Unknown number format ''.", "Error at row 1066441: There was an error converting the value in the column Date(2) to a calendar_date. Unknown date format '03/08/2009 02:00:00'.", "Error at row 1066442: There was an error converting the value in the column Date(2) to a calendar_date. Unknown date format '03/08/2009 02:00:00'.", "Error at row 1066443: There was an error converting the value in the column Date(2) to a calendar_date. Unknown date format '03/08/2009 02:00:00'.", "Error at row 1066444: There was an error converting the value in the column Date(2) to a calendar_date. Unknown date format '03/08/2009 02:00:00'.", "Error at row 1066445: There was an error converting the value in the column Date(2) to a calendar_date. Unknown date format '03/08/2009 02:00:00'.", "Error at row 1066446: There was an error converting the value in the column Date(2) to a calendar_date. Unknown date format '03/08/2009 02:00:00'.", "Error at row 1066447: There was an error converting the value in the column Date(2) to a calendar_date. Unknown date format '03/08/2009 02:00:00'.", "Error at row 1066433: There was an error converting the value in the column Date(2) to a calendar_date. Unknown date format '03/08/2009 02:50:00'.", "Error at row 1066434: There was an error converting the value in the column Date(2) to a calendar_date. Unknown date format '03/08/2009 02:44:00'.", "Error at row 1066435: There was an error converting the value in the column Date(2) to a calendar_date. Unknown date format '03/08/2009 02:30:00'.", "Error at row 1066436: There was an error converting the value in the column Date(2) to a calendar_date. Unknown date format '03/08/2009 02:30:00'.", "Error at row 1066437: There was an error converting the value in the column Date(2) to a calendar_date. Unknown date format '03/08/2009 02:30:00'.", "Error at row 1066438: There was an error converting the value in the column Date(2) to a calendar_date. Unknown date format '03/08/2009 02:30:00'.", "Error at row 1066439: There was an error converting the value in the column Date(2) to a calendar_date. Unknown date format '03/08/2009 02:00:00'.", "Error at row 1066440: There was an error converting the value in the column Date(2) to a calendar_date. Unknown date format '03/08/2009 02:00:00'.", "Error at row 1066432: There was an error converting the value in the column Date(2) to a calendar_date. Unknown date format '03/08/2009 02:50:00'.", "Error at row 1271870: There was an error converting the value in the column Ward(11) to a number. Unknown number format ''.", "Error at row 1384780: There was an error converting the value in the column Ward(11) to a number. Unknown number format ''.", "Error at row 1421915: There was an error converting the value in the column Ward(11) to a number. Unknown number format ''.", "Error at row 1444870: There was an error converting the value in the column Ward(11) to a number. Unknown number format ''.", "Error at row 1486620: There was an error converting the value in the column Date(2) to a calendar_date. Unknown date format '03/09/2008 02:00:00'.", "Error at row 1486619: There was an error converting the value in the column Date(2) to a calendar_date. Unknown date format '03/09/2008 02:00:00'.", "Error at row 1486618: There was an error converting the value in the column Date(2) to a calendar_date. Unknown date format '03/09/2008 02:00:00'.", "Error at row 1486617: There was an error converting the value in the column Date(2) to a calendar_date. Unknown date format '03/09/2008 02:00:00'.", "Error at row 1486616: There was an error converting the value in the column Date(2) to a calendar_date. Unknown date format '03/09/2008 02:27:00'.", "Error at row 1486615: There was an error converting the value in the column Date(2) to a calendar_date. Unknown date format '03/09/2008 02:30:00'.", "Error at row 1486614: There was an error converting the value in the column Date(2) to a calendar_date. Unknown date format '03/09/2008 02:48:00'.", "Error at row 1486627: There was an error converting the value in the column Date(2) to a calendar_date. Unknown date format '03/09/2008 02:00:00'.", "Error at row 1486626: There was an error converting the value in the column Date(2) to a calendar_date. Unknown date format '03/09/2008 02:00:00'.", "Error at row 1486625: There was an error converting the value in the column Date(2) to a calendar_date. Unknown date format '03/09/2008 02:00:00'.", "Error at row 1486624: There was an error converting the value in the column Date(2) to a calendar_date. Unknown date format '03/09/2008 02:00:00'." ]
+      },
+      "owner" : {
+        "id" : "eudm-snef",
+        "displayName" : "Saf",
+        "emailUnsubscribed" : false,
+        "privacyControl" : "login",
+        "profileImageUrlLarge" : "/images/profile/5315/8153/Photo_on_2010-08-05_at_14.49__2_large.jpg",
+        "profileImageUrlMedium" : "/images/profile/5315/8153/Photo_on_2010-08-05_at_14.49__2_thumb.jpg",
+        "profileImageUrlSmall" : "/images/profile/5315/8153/Photo_on_2010-08-05_at_14.49__2_tiny.jpg",
+        "profileLastModified" : 1338943173,
+        "screenName" : "Saf",
+        "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages" ],
+        "flags" : [ "admin" ]
+      },
+      "query" : {
+        "filterCondition" : {
+          "type" : "operator",
+          "value" : "AND",
+          "children" : [ {
+            "type" : "operator",
+            "value" : "OR",
+            "children" : [ {
+              "type" : "operator",
+              "value" : "EQUALS",
+              "children" : [ {
+                "columnId" : 11229392,
+                "type" : "column"
+              }, {
+                "type" : "literal",
+                "value" : "2012"
+              } ],
+              "metadata" : {
+                "freeform" : true
+              }
+            } ],
+            "metadata" : {
+              "tableColumnId" : {
+                "239997" : 1518776
+              },
+              "operator" : "EQUALS"
+            }
+          }, {
+            "type" : "operator",
+            "value" : "OR",
+            "metadata" : {
+              "includeAuto" : 9,
+              "tableColumnId" : {
+                "239997" : 1514299
+              },
+              "operator" : "EQUALS"
+            }
+          } ],
+          "metadata" : {
+            "unifiedVersion" : 2
+          }
+        }
+      },
+      "rights" : [ "read" ],
+      "tableAuthor" : {
+        "id" : "scy9-9wg4",
+        "displayName" : "cocadmin",
+        "emailUnsubscribed" : false,
+        "privacyControl" : "login",
+        "privilegesDisabled" : false,
+        "profileImageUrlLarge" : "/images/profile/4783/7574/CitySeal_Small_large.jpg",
+        "profileImageUrlMedium" : "/images/profile/4783/7574/CitySeal_Small_thumb.jpg",
+        "profileImageUrlSmall" : "/images/profile/4783/7574/CitySeal_Small_tiny.jpg",
+        "profileLastModified" : 1327605094,
+        "roleName" : "administrator",
+        "screenName" : "cocadmin",
+        "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages" ]
+      },
+      "tags" : [ "crime", "police" ],
+      "viewFilters" : {
+        "type" : "operator",
+        "value" : "AND",
+        "children" : [ {
+          "type" : "operator",
+          "value" : "OR",
+          "children" : [ {
+            "type" : "operator",
+            "value" : "EQUALS",
+            "children" : [ {
+              "columnId" : 11229392,
+              "type" : "column"
+            }, {
+              "type" : "literal",
+              "value" : "2012"
+            } ],
+            "metadata" : {
+              "freeform" : true
+            }
+          } ],
+          "metadata" : {
+            "tableColumnId" : {
+              "239997" : 1518776
+            },
+            "operator" : "EQUALS"
+          }
+        }, {
+          "type" : "operator",
+          "value" : "OR",
+          "metadata" : {
+            "includeAuto" : 9,
+            "tableColumnId" : {
+              "239997" : 1514299
+            },
+            "operator" : "EQUALS"
+          }
+        } ],
+        "metadata" : {
+          "unifiedVersion" : 2
+        }
+      }
+    }
+  },
+  "data" : [ [ 4781979, "8B2A6BD1-5DD4-42FB-B091-9AC8235F823B", 4781979, 1333579016, "21484", 1333579016, "21484", "{\n}", "HV100043", "8421394", "2012-01-01T00:15:00", "004XX E ILLINOIS ST", "0460", "BATTERY", "SIMPLE", "OTHER", false, false, "1834", "42", "08B", "1179466", "1903673", "2012", "2012-01-04T00:38:50", "41.89096452734874", "-87.61635775500169", [ null, "41.89096452734874", "-87.61635775500169", null, false ] ]
+, [ 4781982, "D2FE5F9C-C473-4D39-A954-575EC2645ABE", 4781982, 1333579016, "21484", 1333579016, "21484", "{\n}", "HV100041", "8421398", "2012-01-01T00:23:00", "033XX N HALSTED ST", "0520", "ASSAULT", "AGGRAVATED:KNIFE/CUTTING INSTR", "BAR OR TAVERN", true, false, "2331", "44", "04A", "1170293", "1922359", "2012", "2012-01-04T00:38:50", "41.94244528105128", "-87.64949814663773", [ null, "41.94244528105128", "-87.64949814663773", null, false ] ]
+, [ 4781986, "815CA762-7489-42AF-8F57-7C3E2C680324", 4781986, 1333579016, "21484", 1333579016, "21484", "{\n}", "HV100058", "8421402", "2012-01-01T00:30:00", "092XX S DR MARTIN LUTHER KING JR DR", "0430", "BATTERY", "AGGRAVATED: OTHER DANG WEAPON", "SIDEWALK", false, false, "0633", "6", "04B", "1180495", "1843854", "2012", "2012-01-05T00:39:37", "41.72679257256492", "-87.61441648554467", [ null, "41.72679257256492", "-87.61441648554467", null, false ] ]
+, [ 4781988, "A2CFD5A2-E61E-4A6B-8AA8-5499326EC52D", 4781988, 1333579016, "21484", 1333579016, "21484", "{\n}", "HV100039", "8421404", "2012-01-01T00:23:00", "002XX W 118TH ST", "1345", "CRIMINAL DAMAGE", "TO CITY OF CHICAGO PROPERTY", "STREET", false, false, "0522", "34", "14", "1176657", "1826728", "2012", "2012-01-03T00:40:11", "41.67988348682651", "-87.62898852741839", [ null, "41.67988348682651", "-87.62898852741839", null, false ] ]
+, [ 4781989, "A9F62C89-CB2E-49E2-8253-B543686E4FD1", 4781989, 1333579016, "21484", 1333579016, "21484", "{\n}", "HV100059", "8421405", "2012-01-01T00:55:00", "031XX W HARRISON ST", "1350", "CRIMINAL TRESPASS", "TO STATE SUP LAND", "POLICE FACILITY/VEH PARKING LOT", true, false, "1134", "24", "26", "1155268", "1897149", "2012", "2012-01-04T00:38:50", "41.87358247976587", "-87.70540025720936", [ null, "41.87358247976587", "-87.70540025720936", null, false ] ]
+, [ 4781991, "83241865-88FC-4EA1-BB74-54A3BE385993", 4781991, 1333579016, "21484", 1333579016, "21484", "{\n}", "HV100055", "8421408", "2012-01-01T00:40:00", "008XX E 79TH ST", "1811", "NARCOTICS", "POSS: CANNABIS 30GMS OR LESS", "PARKING LOT/GARAGE(NON.RESID.)", true, false, "0624", "8", "18", "1183326", "1852770", "2012", "2012-01-04T00:38:50", "41.75119371347911", "-87.6037694312267", [ null, "41.75119371347911", "-87.6037694312267", null, false ] ]
+, [ 4781993, "66AF0035-77BE-4475-AF27-636224F7FDC1", 4781993, 1333579016, "21484", 1333579016, "21484", "{\n}", "HV100071", "8421410", "2012-01-01T00:40:00", "013XX W LAWRENCE AVE", "1330", "CRIMINAL TRESPASS", "TO LAND", "CEMETARY", true, false, "2033", "46", "26", "1166521", "1932037", "2012", "2012-01-04T00:38:50", "41.969083850242384", "-87.66308369282976", [ null, "41.969083850242384", "-87.66308369282976", null, false ] ]
+, [ 4781994, "4B568095-6C06-4E6C-8CCC-6B54A91B7B76", 4781994, 1333579016, "21484", 1333579016, "21484", "{\n}", "HV100045", "8421411", "2012-01-01T00:01:00", "049XX S RACINE AVE", "141A", "WEAPONS VIOLATION", "UNLAWFUL USE HANDGUN", "RESIDENTIAL YARD (FRONT/BACK)", false, false, "0933", "16", "15", "1169117", "1872022", "2012", "2012-01-04T00:38:50", "41.804342386487605", "-87.65528195766909", [ null, "41.804342386487605", "-87.65528195766909", null, false ] ]
+, [ 4781997, "400BABD9-636C-4903-84EC-E1DD8626CC4D", 4781997, 1333579016, "21484", 1333579016, "21484", "{\n}", "HV100067", "8421414", "2012-01-01T00:50:00", "010XX N MILWAUKEE AVE", "1310", "CRIMINAL DAMAGE", "TO PROPERTY", "RESIDENCE", false, false, "1323", "27", "14", "1167071", "1906940", "2012", "2012-01-04T00:38:50", "41.90020458773821", "-87.66178420710429", [ null, "41.90020458773821", "-87.66178420710429", null, false ] ]
+, [ 4781998, "1BE29FA9-8912-40BB-AC5C-730091D581C2", 4781998, 1333579016, "21484", 1333579016, "21484", "{\n}", "HV100097", "8421415", "2012-01-01T01:25:00", "050XX W DIVISION ST", "1811", "NARCOTICS", "POSS: CANNABIS 30GMS OR LESS", "STREET", true, false, "2533", "37", "18", "1142606", "1907562", "2012", "2012-01-04T00:38:50", "41.902401784486436", "-87.75163021301782", [ null, "41.902401784486436", "-87.75163021301782", null, false ] ]
+ ]
+}
