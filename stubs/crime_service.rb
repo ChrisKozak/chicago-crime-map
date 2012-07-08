@@ -1,6 +1,6 @@
 require 'services/transformers/crime_transformer'
 
-class CrimeServiceStub
+class CrimeService
   CRIMES_CACHE_FILENAME = "stubs/responses/crimes_response"
 
   def self.load_cached_crimes
